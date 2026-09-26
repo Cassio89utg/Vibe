@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background-color: #06070a;
+    color: #f3f4f6;
+    overflow-x: hidden;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Custom scrollbars and hidden scrollbars */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Snap scroll for vertical feed */
+.snap-y-mandatory {
+  scroll-snap-type: y mandatory;
+}
+.snap-start {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+/* Vibe Neon & Surface Utilities */
+.neon-glow {
+  box-shadow: 0 0 24px -4px rgba(168, 85, 247, 0.45);
+}
+
+.neon-glow-sm {
+  box-shadow: 0 0 12px -2px rgba(168, 85, 247, 0.35);
+}
+
+.neon-border {
+  border-color: rgba(168, 85, 247, 0.6);
+  box-shadow: 0 0 15px rgba(168, 85, 247, 0.25);
+}
+
+.neon-text-glow {
+  text-shadow: 0 0 12px rgba(192, 132, 252, 0.6);
+}
+
+.bg-surface-dark {
+  background-color: #0d0e15;
+}
+
+.bg-surface-card {
+  background-color: #13141f;
+}
+
+.bg-surface-elevated {
+  background-color: #1a1c2b;
+}
+

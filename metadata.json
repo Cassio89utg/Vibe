@@ -1,0 +1,6 @@
+{
+  "name": "VIBE",
+  "description": "Rede social mobile-first de vídeos verticais, Stories e publicações temporárias de 24 horas.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
